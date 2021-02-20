@@ -2,11 +2,11 @@
 
 export SECRET_KEY_BASE=$SECRET_KEY_BASE
 export MIX_ENV=prod
-export PORT=4790
+export PORT=4791
 export NODEBIN=`pwd`/assets/node_modules/.bin
 export PATH="$PATH:$NODEBIN"
 
-echo "Building..."
+echo "Building..:."
 
 mix deps.get
 mix compile
